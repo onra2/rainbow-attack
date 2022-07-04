@@ -1,0 +1,48 @@
+# gitignore pour qt creator
+#
+# Ignore all files without extensions (cpp compiled)
+*
+!*.*
+!*/
+
+# pas de fichier *~
+*~
+
+# pas de fichier .bak
+*.bak
+
+# pas de fichier .o
+*.o
+
+# pas de fichier .so
+*.so
+*.so.*
+
+# pas de fichier .exe
+*.exe
+
+# pas de dossier release
+release/
+
+# pas de dossier debug
+debug/
+
+# pas de dossier build-*
+build-*/
+
+# pas de dossier de doc html / latex
+doc/html/
+doc/latex/
+
+# pas de fichier .user
+*.user
+
+# pas de fichier .user.*
+*.user.*
+
+# pas de fichier Makefile.*
+Makefile.*
+
+# pas de fichier .qmake.stash
+.qmake.stash
+
